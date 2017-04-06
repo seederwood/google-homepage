@@ -1,10 +1,51 @@
-/* CSS Styles */
-
-.header {
+ul li
+{
+  margin-right: 20px;
+  padding-top: 15px;
 }
 
-.main {
+#menu
+{
+  list-style-type: none;
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-color: white;
+  color: #000;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
 }
 
-.footer {
+li
+{
+  float: left;
+}
+li a
+{
+  display: inline;
+  text-align: center;
+}
+#menu a
+{
+  color: #443344;
+}
+
+.menuCont
+{
+  float: right;
+}
+
+#bton
+{
+  padding: 7.5px 15px;
+  color: #fff;
+  border-radius: 2px;
+  background-color: #4285f4;
+  text-decoration: none;
+}
+
+li #bton
+{
+  color: white;
+  font-weight: bold;
 }
