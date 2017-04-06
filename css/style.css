@@ -4,27 +4,35 @@ ul li
   padding-top: 15px;
 }
 
-#menu
-{
-  list-style-type: none;
-  margin: 5px 0 0 0;
-  padding: 0;
-  background-color: white;
-  color: #000;
-  font-size: 12px;
-  font-weight: 300;
-  letter-spacing: 0.01em;
-}
 
 li
 {
   float: left;
 }
+
 li a
 {
   display: inline;
   text-align: center;
 }
+
+li span
+{
+  font-size: 1.2em;
+}
+#menu
+{
+  background-color: white;
+  color: #000;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  list-style-type: none;
+  margin: 5px 0 0 0;
+  padding: 0;
+
+}
+
 #menu a
 {
   color: #443344;
@@ -37,10 +45,10 @@ li a
 
 #bton
 {
-  padding: 7.5px 15px;
-  color: #fff;
-  border-radius: 2px;
   background-color: #4285f4;
+  border-radius: 2px;
+  color: #fff;
+  padding: 7.5px 15px;
   text-decoration: none;
 }
 
