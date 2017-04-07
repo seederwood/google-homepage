@@ -18,29 +18,41 @@ li a
 
 li span
 {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  color: #767d87;
 }
-#menu
+
+.menu a, .menu a:hover, li span:hover
 {
-  background-color: white;
   color: #000;
+}
+
+.menu a, .menu a:hover
+{
+  background-color: inherit;
   font-size: 12px;
   font-weight: 300;
   letter-spacing: 0.01em;
   list-style-type: none;
-  margin: 5px 0 0 0;
+  margin: 0 0 0 0;
   padding: 0;
 
 }
 
-#menu a
-{
-  color: #443344;
-}
-
-.menuCont
+.menu_right
 {
   float: right;
+}
+
+.menu_left
+{
+  float: left;
+  padding-left: 15px;
+}
+
+ul.menu_left, ul.menu_right
+{
+  position: relative;
 }
 
 #bton
@@ -56,4 +68,18 @@ li #bton
 {
   color: white;
   font-weight: bold;
+}
+
+.foot
+{
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #e7e7e7;
+}
+
+.foot .menu_right
+{
+  padding-right: 35px;
 }
