@@ -7,9 +7,14 @@ Task:
 		· layout
 		· font
 		· header/footer
-	
+
 	2.  push to github
-	
+
 What I did/learned on this project:
 
 
+	I learned how to:
+	  · create a menu bar with icons and buttons
+		· create input boxes
+		· better organize CSS files
+		
