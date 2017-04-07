@@ -27,7 +27,7 @@ li span
   color: #000;
 }
 
-.menu a, .menu a:hover
+.menu a, .menu a:hover, .buttons a, .buttons a:hover
 {
   background-color: inherit;
   font-size: 12px;
@@ -55,19 +55,57 @@ ul.menu_left, ul.menu_right
   position: relative;
 }
 
-#bton
+.buttons
 {
-  background-color: #4285f4;
+  display: block;
+  margin: -25px auto;
+  width: 280px;
+}
+
+#bton, #bton1, #bton2
+{
   border-radius: 2px;
   color: #fff;
   padding: 7.5px 15px;
   text-decoration: none;
 }
 
+li #bton1
+{
+  float: left;
+}
+
+li #bton2
+{
+  float: right;
+}
+
 li #bton
 {
+  background-color: #4285f4;
   color: white;
   font-weight: bold;
+}
+
+li #bton1, li #bton2
+{
+  background-color: #f2f2f2;
+  color: darkgray;
+  font-weight: bold;
+}
+
+li #bton1:hover, li #bton2:hover
+{
+  border: 1px solid darkgrey;
+}
+
+.btn
+{
+  background-color: #f2f2f2;
+  border-radius: 2px;
+  color: #000000;
+  padding: 7.5px 15px;
+  text-decoration: none;
 }
 
 .foot
@@ -82,4 +120,32 @@ li #bton
 .foot .menu_right
 {
   padding-right: 35px;
+}
+
+img
+{
+  display: block;
+  max-width: 285px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+input[type=text]
+{
+  background-color: #f2f2f2;
+  margin: -75px auto;
+  display: block;
+  width: 450px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e7e7e7;
+  border-radius: 2px;
+}
+
+input[type=text]:hover, input[type=text]:focus
+{
+  border-bottom: 1px solid #c7c7c7;
+  box-shadow: 0 1px 1px #c7c7c7, 0 0 1px #c7c7c7;
+  outline: none;
 }
